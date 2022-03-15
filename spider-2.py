@@ -27,3 +27,17 @@ print(add(a1, b1))
 print(subtract(a1, b1))
 print(multiply(a1, b1))
 print(division(a1, b1))
+
+
+from pkg.support import test
+test()
+
+from pkg import support as S
+S.test()
+
+
+
+
+
+
+
